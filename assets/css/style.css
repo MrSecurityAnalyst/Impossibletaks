@@ -19,7 +19,10 @@ Project: WhizCyber
 11.Form Section
 11. Footer Section
 */
-
+.navbar-brand .img-fluid {
+  max-width: 500px; /* Adjust this value to increase the size */
+  height: auto; /* Keeps the image aspect ratio */
+}
 body {
   font-family: 'Titillium Web', sans-serif;
 }
